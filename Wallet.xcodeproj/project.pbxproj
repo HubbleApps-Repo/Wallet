@@ -11,10 +11,10 @@
 		99D3CD9625BB3189006EF56C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D3CD9525BB3189006EF56C /* ContentView.swift */; };
 		99D3CD9825BB3193006EF56C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D3CD9725BB3193006EF56C /* Assets.xcassets */; };
 		99D3CD9B25BB3193006EF56C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D3CD9A25BB3193006EF56C /* Preview Assets.xcassets */; };
-		99D3CD9D25BB3193006EF56C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D3CD9C25BB3193006EF56C /* Persistence.swift */; };
 		99D3CDA025BB3193006EF56C /* Wallet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99D3CD9E25BB3193006EF56C /* Wallet.xcdatamodeld */; };
 		99D3CDAB25BB3194006EF56C /* WalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D3CDAA25BB3194006EF56C /* WalletTests.swift */; };
 		99D3CDB625BB3194006EF56C /* WalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D3CDB525BB3194006EF56C /* WalletUITests.swift */; };
+		99D3CDCA25BB321C006EF56C /* Circular_SliderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D3CDC925BB321C006EF56C /* Circular_SliderApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 		99D3CD9525BB3189006EF56C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		99D3CD9725BB3193006EF56C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99D3CD9A25BB3193006EF56C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		99D3CD9C25BB3193006EF56C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		99D3CD9F25BB3193006EF56C /* Wallet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wallet.xcdatamodel; sourceTree = "<group>"; };
 		99D3CDA125BB3193006EF56C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99D3CDA625BB3194006EF56C /* WalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +48,7 @@
 		99D3CDB125BB3194006EF56C /* WalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D3CDB525BB3194006EF56C /* WalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletUITests.swift; sourceTree = "<group>"; };
 		99D3CDB725BB3194006EF56C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99D3CDC925BB321C006EF56C /* Circular_SliderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circular_SliderApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				99D3CD9325BB3189006EF56C /* WalletApp.swift */,
+				99D3CDC925BB321C006EF56C /* Circular_SliderApp.swift */,
 				99D3CD9525BB3189006EF56C /* ContentView.swift */,
 				99D3CD9725BB3193006EF56C /* Assets.xcassets */,
-				99D3CD9C25BB3193006EF56C /* Persistence.swift */,
 				99D3CDA125BB3193006EF56C /* Info.plist */,
 				99D3CD9E25BB3193006EF56C /* Wallet.xcdatamodeld */,
 				99D3CD9925BB3193006EF56C /* Preview Content */,
@@ -266,9 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				99D3CDA025BB3193006EF56C /* Wallet.xcdatamodeld in Sources */,
-				99D3CD9D25BB3193006EF56C /* Persistence.swift in Sources */,
 				99D3CD9625BB3189006EF56C /* ContentView.swift in Sources */,
 				99D3CD9425BB3189006EF56C /* WalletApp.swift in Sources */,
+				99D3CDCA25BB321C006EF56C /* Circular_SliderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
